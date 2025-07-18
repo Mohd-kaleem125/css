@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media queries</title>
+    <style>
+        .box {
+            padding: 5px;
+            height: 100px;
+            width: 100px;
+            background-color: mediumaquamarine;
+        }
+       /*  @media screen  and(width: 300px) {
+            .box{
+                background-color: red;
+            } 
+            
+         } */
+        /*  @media screen and(min-width: 300px) {
+            .box{
+                background-color: yellow;
+            }
+            
+          } */
+           @media screen and(max-width: 300px){
+            .box{
+                background-color: green;
+            }
+            
+           }
+    </style>
+</head>
+<body>
+    <div class="box">Box</div>
+</body>
+</html>
